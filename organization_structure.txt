@@ -1,0 +1,30 @@
+ brook's_capstone_project/
+│
+├── docs/             
+│   ├── index.md     
+│   ├── installation.md  
+│   └── contributing.md  
+│
+├── data/            
+│   ├── sentinel_imagery 
+│   │   ├── 2019_composite.tiff
+│   │   └── 2023_composite.tiff
+│   ├── input 
+│   │   ├── 2019_CRAs.shp
+│   │   └── 2023_CRAS.shp
+│   ├── outputs
+│   │   └── 2019_2023_classification.tiff
+		
+│
+├── scripts/         
+│   ├── random_forest_classification.R
+│   ├── masking_classification_rasters.R
+│   ├── extracting_NDVI.R
+│   └── generate_boxplot.R  
+│
+├── figs/             
+│   └── NDVI_overtime.png.md  
+│
+├── .gitignore       
+├── README.md        
+├── LICENSE          
